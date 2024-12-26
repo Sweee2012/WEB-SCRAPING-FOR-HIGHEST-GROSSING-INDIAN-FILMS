@@ -1,7 +1,7 @@
 # WEB-SCRAPING-FOR-HIGHEST-GROSSING-INDIAN-FILMS
-This project scrapes the list of highest-grossing Indian films from Wikipedia using the `pandas` library. It extracts the first table from the page, which includes details like box office earnings and release years. The data is loaded into a pandas Data Frame for easy analysis and manipulation.
+This project scrapes the list of highest-grossing Indian films from Wikipedia using the `pandas` library. It extracts the first table from the page, which includes details like box office earnings and release years. The data is loaded into a pandas Data Frame for easy analysis and manipulation. This project demonstrates a simple approach to scraping the list of the highest-grossing Indian films using the `pandas` library in Python. 
 
-This project demonstrates a simple approach to scraping the list of the highest-grossing Indian films using the `pandas` library in Python. The code:
+The code:
 
 ```python
 import pandas as pd
