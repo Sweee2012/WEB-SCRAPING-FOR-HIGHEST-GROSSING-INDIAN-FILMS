@@ -15,6 +15,7 @@ pd.read_html('https://en.wikipedia.org/wiki/List_of_highest-grossing_Indian_film
 3. **Selecting the First Table:** The function returns a list of DataFrames (one for each table found on the page). `[0]` is used to select the first table, which contains the list of highest-grossing Indian films, including details like the movie titles, worldwide box office earnings, release years, and more.
 
 **How It Works:**
+
 The project leverages the pandas.read_html() function, which extracts all the tables from a given URL and converts them into pandas DataFrames. By selecting the first table from the Wikipedia page, the project isolates the data of interest (highest-grossing Indian films). This approach makes it incredibly simple and efficient to scrape structured data from websites. This minimalistic code is an efficient way to scrape, extract, and analyze data about the highest-grossing Indian films, which can be further processed for insights or other applications.
 
 ---
